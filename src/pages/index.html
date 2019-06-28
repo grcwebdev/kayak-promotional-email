@@ -7,12 +7,12 @@ subject: Great Deals Today Only!
     <row class="deal-of-day">
         <columns>
             <h2>Deal of The Day</h2>
-            <img src="{{kayakEmail.dealOfTheDay.image}}"/>
-            <p>{{kayakEmail.dealOfTheDay.location}}: {{kayakEmail.dealOfTheDay.description}}</p>
-            <span class="save-amount">{{kayakEmail.dealOfTheDay.saveAmount}}</span>
-            <span class="tiny-info">{{kayakEmail.dealOfTheDay.tinyInfo}}</span>
-            <span class="price">${{kayakEmail.dealOfTheDay.price}}+</span>
-            <a href="{{kayakEmail.dealOfTheDay.link}}" class="button">See Deal</a>
+            <img src="https://i.imgur.com/OO1jM80.png"/>
+            <p>Ireland: 8 days with air, hotel, and car rental. Use promo code CFDL110 to save. Price reflects NYC departure, other cities available.</p>
+            <span class="save-amount">Save $110 with code</span>
+            <span class="tiny-info">Gate 1 Travel</span>
+            <span class="price">$649+</span>
+            <a href="https://en.wikipedia.org/wiki/Ireland" class="button">See Deal</a>
         </columns>
     </row>
 </container>
@@ -20,18 +20,36 @@ subject: Great Deals Today Only!
 <container>
     <row class="content-area">
             <columns class="first-offer">
-                {{#each kayakEmail.offers}}
                 <row class="offer">
                     <columns>
-                        <img src="{{this.image}}"/>
-                        <p>{{this.location}}: {{this.description}}<p>
-                        <span class="save-amount">{{this.saveAmount}}</span>
-                        <span class="tiny-info">{{this.tinyInfo}}</span>
-                        <span class="price">${{this.price}}+</span>
-                        <a href="{{this.link}}" class="button">See Deal</a>
+                        <img src="https://i.imgur.com/P2xGz3D.png"/>
+                        <p>Cancun: 4 nights with air and Melody Maker Cancun stay. Price reflects MIA departure, other cities available.<p>
+                        <span class="save-amount">Save up to 65%</span>
+                        <span class="tiny-info">CheapCaribbean.com</span>
+                        <span class="price">$689+</span>
+                        <a href="https://en.wikipedia.org/wiki/Cancun" class="button">See Deal</a>
                     </columns>
                 </row>
-                {{/each}}
+                <row class="offer">
+                    <columns>
+                        <img src="https://i.imgur.com/N5A3T9h.jpg"/>
+                        <p>China: Spend 7 nights in the heart of Beijing.<p>
+                        <span class="save-amount">Save up to 34%</span>
+                        <span class="tiny-info">Chinaair.com</span>
+                        <span class="price">$949+</span>
+                        <a href="https://en.wikipedia.org/wiki/China" class="button">See Deal</a>
+                    </columns>
+                </row>
+                <row class="offer">
+                    <columns>
+                        <img src="https://i.imgur.com/A9Z2vdp.png"/>
+                        <p>London: Visit the castles at London.<p>
+                        <span class="save-amount">Save up to 25%</span>
+                        <span class="tiny-info">Eurotravels.com</span>
+                        <span class="price">$469+</span>
+                        <a href="https://en.wikipedia.org/wiki/London" class="button">See Deal</a>
+                    </columns>
+                </row>
             </columns>
         </row>
 </container>
